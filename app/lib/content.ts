@@ -93,5 +93,6 @@ export const contact = {
   phoneHref: "tel:0782110603",
   email: "cat.bieri@outlook.com",
   instagram: "https://www.instagram.com/komobeauty/",
+  tiktok: "https://www.tiktok.com/@komobeauty",
+  socialHandle: "@komobeauty",
 };
-
