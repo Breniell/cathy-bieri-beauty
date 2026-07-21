@@ -74,3 +74,14 @@ test("sitemap is stable and excludes unverified routes", async () => {
   assert.doesNotMatch(xml, /soins-du-visage|corps-bien-etre|regard-maquillage/);
   assert.match(xml, /manucure-pedicure/);
 });
+
+test("TikTok is exposed consistently in the gallery, footer and structured data", async () => {
+  const worker = await getWorker();
+  const profile = "https://www.tiktok.com/@komobeauty";
+  for (const path of ["/", "/galerie", "/contact"]) {
+    const response = await render(worker, path);
+    const html = await response.text();
+    assert.equal(response.status, 200, path);
+    assert.match(html, new RegExp(profile.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), `${path} must expose the TikTok profile`);
+  }
+});
