@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": [{ "@type": "Organization", "@id": `${origin}/#organization`, name: "Cathy Bieri Beauty", url: origin, email: "mailto:cat.bieri@outlook.com", telephone: "078 211 06 03", sameAs: ["https://www.instagram.com/komobeauty/"] }, { "@type": "WebSite", "@id": `${origin}/#website`, url: origin, name: "Cathy Bieri Beauty", inLanguage: "fr", publisher: { "@id": `${origin}/#organization` } }] }).replace(/</g, "\\u003c") }} /></body>
+      <body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": [{ "@type": "Organization", "@id": `${origin}/#organization`, name: "Cathy Bieri Beauty", url: origin, email: "mailto:cat.bieri@outlook.com", telephone: "078 211 06 03", sameAs: ["https://www.instagram.com/komobeauty/", "https://www.tiktok.com/@komobeauty"] }, { "@type": "WebSite", "@id": `${origin}/#website`, url: origin, name: "Cathy Bieri Beauty", inLanguage: "fr", publisher: { "@id": `${origin}/#organization` } }] }).replace(/</g, "\\u003c") }} /></body>
     </html>
   );
 }
