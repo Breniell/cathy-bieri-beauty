@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="152" viewBox="0 0 640 152" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Cathy Bieri Beauty Atelier — version inversée</title>
+  <desc id="desc">Monogramme CB sculptural et signature claire pour fonds sombres</desc>
+  <g color="#F7F1E8">
+    <path d="M113 34.5C103.3 23.6 89.2 17 73.7 17 43.4 17 19 41.4 19 71.5S43.4 126 73.7 126c15.5 0 29.6-6.6 39.3-17.5" stroke="currentColor" stroke-width="8" stroke-linecap="square"/>
+    <path d="M76 17v109" stroke="currentColor" stroke-width="8"/>
+    <path d="M80 21h23.4c18.3 0 33.1 12.5 33.1 27.9 0 12.3-9.4 22.7-22.4 26.4 16.5 3 28.9 14.8 28.9 28.8 0 17.1-17.3 30.9-38.6 30.9H80" stroke="currentColor" stroke-width="8" stroke-linejoin="miter"/>
+    <path d="M115 75H76" stroke="currentColor" stroke-width="4"/>
+    <circle cx="115" cy="75" r="5" fill="#C9B5D4"/>
+  </g>
+  <path d="M174 20v112" stroke="#F7F1E8" stroke-opacity=".25"/>
+  <text x="207" y="77" fill="#F7F1E8" font-family="'Bodoni Moda', Didot, 'Times New Roman', serif" font-size="55" font-weight="500" letter-spacing="-2.2">Cathy Bieri</text>
+  <path d="M211 97H559" stroke="#C9B5D4" stroke-width="2"/>
+  <text x="211" y="124" fill="#F7F1E8" font-family="Manrope, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="5.6">BEAUTY ATELIER</text>
+</svg>

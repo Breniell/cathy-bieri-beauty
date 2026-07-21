@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Monogramme Cathy Bieri</title>
+  <desc id="desc">Lettres C et B fusionnées dans un signe sculptural</desc>
+  <g color="#6E1824">
+    <path d="M113 37.5C103.3 26.6 89.2 20 73.7 20 43.4 20 19 44.4 19 74.5S43.4 129 73.7 129c15.5 0 29.6-6.6 39.3-17.5" stroke="currentColor" stroke-width="8" stroke-linecap="square"/>
+    <path d="M76 20v109" stroke="currentColor" stroke-width="8"/>
+    <path d="M80 24h23.4c18.3 0 33.1 12.5 33.1 27.9 0 12.3-9.4 22.7-22.4 26.4 16.5 3 28.9 14.8 28.9 28.8 0 17.1-17.3 30.9-38.6 30.9H80" stroke="currentColor" stroke-width="8" stroke-linejoin="miter"/>
+    <path d="M115 78H76" stroke="currentColor" stroke-width="4"/>
+    <circle cx="115" cy="78" r="5" fill="#B86145"/>
+  </g>
+</svg>
